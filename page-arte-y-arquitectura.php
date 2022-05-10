@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<h1>Arte y arquitectura</h1>
+<h1>Arte y arquitectura 2022</h1>
 
 <div  class="container-fluid h-75">
     <div >
