@@ -1,4 +1,18 @@
-<?php get_header(); ?>
+
+
+<div>
+        <!-- header -->
+        <header>
+            <!-- nav -->
+                <ul class= "nav justify-content-end">
+                    <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">COMIDA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">AIRE LIBRE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">ARTE Y ARQUITECTURA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">NOSOTROS</a></li>
+                </ul>
+            <!-- nav -->
+
 
 <h1>Arte y arquitectura</h1>
 <hr class="division">
