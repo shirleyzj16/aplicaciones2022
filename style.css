@@ -1,4 +1,6 @@
-
+body{
+    background: red;
+}
 
 body{
     margin: 0;
@@ -41,9 +43,9 @@ header{
 h1{
     margin-top: 1em;
     padding: 0;
-    color: #fff;
+    color: #000000;
     font-family: 'Poppins', sans-serif;
-    font-size: 75px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -155,3 +157,41 @@ h4{
     padding: 10px 10px 5px 5px;
     box-shadow: #000;
   }
+
+hr{
+   color: #77CECD;
+   opacity: 100%;
+  }
+
+.division{
+    color: #7FDBDA;
+    padding: 0 0 5px;
+    margin-left: 33em;
+    width: 30%;
+    
+  }
+
+.line{
+    color: #77CECD;
+    width: 30%;
+    padding: 0 0 4px;
+}
+
+  .card{
+    padding: 2em 2em;
+    text-align: left;
+    margin-left: 14em;
+    margin-top: 2em;
+     
+    }
+
+    h6{
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    }
+
+    .col-md-4{
+        background-image: url(./images/fototeatro.jpg);
+    }
