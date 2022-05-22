@@ -20,7 +20,7 @@
                     <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">COMIDA</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">AIRE LIBRE</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">ARTE Y ARQUITECTURA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="page-arte-y-arquitectura.php">ARTE Y ARQUITECTURA</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">NOSOTROS</a></li>
                 </ul>
             <!-- nav -->
