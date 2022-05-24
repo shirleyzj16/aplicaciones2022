@@ -1,5 +1,6 @@
 
 
+
 body{
     margin: 0;
     padding: 0;
@@ -14,13 +15,22 @@ body{
 header{
     margin: 0;
     padding: 0;
-    background-image: url(./images/HERO.jpeg);
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-.hero{
-    padding: 1em 0 7em 0;
+
+/*---- Footer ----- */
+
+.iconos-footer{
+    margin-left: 2em;
+    display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+}
+
+.logo{
+    margin-left: 2em;
+    display: inline-block;
+    vertical-align: middle;
+    width: 120px;
 }
 
 .nav{
@@ -38,12 +48,21 @@ header{
     color:#F9935A; 
 }
 
+.hero{
+    padding: 4em 0 7em 0;
+    background-image: url(./images/HERO.jpeg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 h1{
     margin-top: 1em;
     padding: 0;
-    color: #000000;
+    color: #fff;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 75px;
     font-weight: 600;
 }
 
@@ -105,11 +124,53 @@ h3{
 }
 
 .categories-subtitle{
-    margin: 0 10em;
+    margin: 0 10em  3em 10em;
     color: #000;
     font-family: 'Nunito', sans-serif;
     font-size: 24px;
     font-weight: 400; 
+}
+
+.catergories-image1{
+    margin: 0 2em;
+    height: 380px;
+    background-image: url(./images/comida.jpg);
+    background-position: top; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.catergories-image2{
+    margin: 0 2em;
+    height: 380px;
+    background-image: url(./images/arquitectura.jpg);
+    background-position: top; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.catergories-image3{
+    margin: 0 2em;
+    height: 380px;
+    background-image: url(./images/exterior.jpg);
+    background-position: top; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p-category{
+    text-align:start;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    border-bottom: 3px solid #fff  ;
+    text-decoration: none;
+}
+
+.p-category:hover{
+    color: #F9935A;
+    border-bottom: 3px solid #F9935A  ;
 }
  
 
@@ -121,12 +182,12 @@ h3{
 }
 
 .ad-image{
-    padding: 2em 0;
+    padding: 3em 0;
     background-image: url(./images/AD.jpg);
     background-position: top; 
     background-repeat: no-repeat;
     background-size: cover;
-
+    opacity: 90%;
 }
 
 .ad-container{
@@ -146,6 +207,9 @@ h4{
     font-size: 30px;
     font-weight: 400;
 } 
+
+
+
 
 /*---- Arte y Arquitectura  ----- */
 
@@ -193,3 +257,70 @@ hr{
     .col-md-4{
         background-image: url(./images/fototeatro.jpg);
     }
+
+    /*---- comida ----- */
+
+.titulo-comida{
+    color: rgb(0, 0, 0);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;  
+    margin-bottom: 0px;
+}
+
+.column1 {
+    float: left;
+    width: 40%;
+  }
+
+  .column2 {
+    float: left;
+    width: 60%;
+  }
+
+.subrayado-amarillo{
+    background-color: #FAF281;
+    padding: 0 0 5px;
+    margin-left: 33em;
+    width: 30%;
+}
+
+.mini-subrayado-amarillo{
+    color: #FAF281;
+    width: 30%;
+    padding: 0 0 4px;
+}
+
+
+.comida-image1{
+    padding: 10em 0;
+    background-image: url(./images/pizza.jpg);
+    background-position: top; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.comida-image2{
+    padding: 10em 0;
+    background-image: url(./images/donas.jpg);
+    background-position: top; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.comida-image3{
+    padding: 10em 0;
+    background-image: url(./images/casado.jpg);
+    background-position: top; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*---- Aire Libre  ----- */
+.category{
+    margin-top: 1em;
+    padding: 0;
+    color:black !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px !important;
+    font-weight: 800;
+}

@@ -16,18 +16,19 @@
         <!-- header -->
         <header>
             <!-- nav -->
+            <nav class="navbar navbar-default" role="navigation">
+                <ul class= "nav navbar-left">
+                    <a href="#">
+                        <img src="./wp-content/themes/exploraticos/images/logo.png" class="logo">
+                    </a>
+                </ul>
                 <ul class= "nav justify-content-end">
-                    <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">COMIDA</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">AIRE LIBRE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="comida">COMIDA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="airelibre">AIRE LIBRE</a></li>
                     <li class="nav-item"><a class="nav-link" href="arte-y-arquitectura">ARTE Y ARQUITECTURA</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">NOSOTROS</a></li>
                 </ul>
+            </nav>    
             <!-- nav -->
-            <div class="hero">
-                <h1>DESCUBRE COSTA RICA</h1>
-                <p class="hero-paragraph">TE MOSTRAMOS INCREIBLES LUGARES POR DESCUBRIR </p>
-
-                <button type="button">EXPLORAR</button>
-            </div>
         </header>
