@@ -213,6 +213,13 @@ h4{
 
 /*---- Arte y Arquitectura  ----- */
 
+.titulo-page{
+    color: rgb(0, 0, 0);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;  
+    margin-bottom: 0px;
+}
+
 .info_lugar {
     background-color: #FFFFFF;
     color: #000000;
