@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<h1 class="titulo-page">>Arte y arquitectura</h1>
+<h1 class="titulo-page">Arte y arquitectura</h1>
 <hr class="division">
 
 <div class="card mb-3" style="max-width: 1000px;">
