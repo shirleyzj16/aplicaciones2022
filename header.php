@@ -19,7 +19,7 @@
             <nav class="navbar navbar-default" role="navigation">
                 <ul class= "nav navbar-left">
                     <a href="#">
-                        <img src="./wp-content/themes/exploraticos/images/logo.png" class="logo">
+                        <img src="./wp-content/themes/aplicaciones2022/images/logo.png" class="logo">
                     </a>
                 </ul>
                 <ul class= "nav justify-content-end">
