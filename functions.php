@@ -18,4 +18,10 @@
     add_filter( 'show_admin_bar' , 'my_function_admin_bar');
     // soporte para imagenes
   add_theme_support('post-thumbnails');
+
+
+  register_nav_menus(array(
+    'primary' => ('Primary Menu')
+  ));
+
 ?>    

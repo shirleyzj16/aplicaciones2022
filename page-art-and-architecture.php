@@ -11,7 +11,7 @@
     </div>
     <div class="col-md-8"  >
       <div class="card-body">
-        <h5 class="card-title">Place</h5>
+        <h5 class="card-title">Places</h5>
         
         <h6>Ubication</h6>
         <hr class="line";>
