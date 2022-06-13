@@ -1,6 +1,5 @@
 
 
-
 body{
     margin: 0;
     padding: 0;
@@ -17,6 +16,35 @@ header{
     padding: 0;
 }
 
+/*---- Nav ----- */
+
+nav.navegacion ul{
+    margin-top: 2em ;
+}
+
+nav.navegacion ul li{
+    text-align: end;
+    margin-bottom: 2em;
+    margin-right: 2em;
+}
+
+nav.navegacion ul li a{
+    color:#000;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav.navegacion ul li a:hover{
+   color:#F9935A;
+}
+
+nav.navegacion ul li.current_page_item{
+    border-bottom: 3px solid #F9935A ;
+}
+
 /*---- Footer ----- */
 
 .iconos-footer{
@@ -26,27 +54,7 @@ header{
     width: 35px;
 }
 
-.logo{
-    margin-left: 2em;
-    display: inline-block;
-    vertical-align: middle;
-    width: 120px;
-}
-
-.nav{
-    padding:2em;
-}
-
-.nav-link{
-    color:#000;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;  
-}
-
-.nav-link:hover{
-    color:#F9935A; 
-}
+/*---- Hero ----- */
 
 .hero{
     padding: 4em 0 7em 0;
@@ -74,7 +82,7 @@ h1{
     font-weight: 600;
 }
 
-button{
+.button-hero{
     padding: 0.5em 1em;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
@@ -208,64 +216,7 @@ h4{
     font-weight: 400;
 } 
 
-
-
-
-/*---- Arte y Arquitectura  ----- */
-
-.titulo-page{
-    color: rgb(0, 0, 0);
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;  
-    margin-bottom: 0px;
-}
-
-.info_lugar {
-    background-color: #FFFFFF;
-    color: #000000;
-    padding: 10px 10px 5px 5px;
-    box-shadow: #000;
-  }
-
-hr{
-   color: #77CECD;
-   opacity: 100%;
-  }
-
-.division{
-    color: #7FDBDA;
-    padding: 0 0 5px;
-    margin-left: 33em;
-    width: 30%;
-    
-  }
-
-.line{
-    color: #77CECD;
-    width: 30%;
-    padding: 0 0 4px;
-}
-
-  .card{
-    padding: 2em 2em;
-    text-align: left;
-    margin-left: 14em;
-    margin-top: 2em;
-     
-    }
-
-    h6{
-    color: #000;
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
-    font-weight: 400; 
-    }
-
-    .col-md-4{
-        background-image: url(./images/fototeatro.jpg);
-    }
-
-    /*---- comida ----- */
+/*---- comida ----- */
 
 .titulo-comida{
     color: rgb(0, 0, 0);
@@ -332,7 +283,7 @@ hr{
     font-weight: 800;
 }
 
-
+/*---- Arte y arquictectura  ----- */
 .title{
     margin-top: 1em;
     padding: 0;
@@ -340,4 +291,24 @@ hr{
     font-family: 'Nunito', sans-serif;
     font-weight: 700;  
     margin-bottom: 0px;
+}
+
+/*---- Nosotros  ----- */
+.imagen-nosotros{
+    margin-bottom: 5em;
+    padding: 4em 0 10em 0;
+    background-position: top; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+}
+
+.titulo_nosotros{
+    margin-top: 1em;
+    padding: 0;
+    color: #77CECD;
+    font-family: 'Poppins', sans-serif;
+    font-size: 120px;
+    font-weight: 600;
+    text-align: center;
 }

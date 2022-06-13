@@ -6,31 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head(); ?>
-    <title>EXPLORATICOS</title>
-    
+    <title><?php bloginfo('name');?></title>  
 </head>
 
 <body>
-   <!-- container -->
-    <div>
-        <!-- header -->
-        <header>
-            <!-- nav -->
-            <nav class="navbar navbar-default" role="navigation">
-                <ul class= "nav navbar-left">
-                    <a href="#">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" class="logo">
-                    </a>
-                </ul>
-                <ul class= "nav justify-content-end">
-                     
 
-                    <li class="nav-item"><a class="nav-link" href="">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="comida">COMIDA</a></li>
-                    <li class="nav-item"><a class="nav-link" href="airelibre">AIRE LIBRE</a></li>
-                    <li class="nav-item"><a class="nav-link" href="arte-y-arquitectura">ARTE Y ARQUITECTURA</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">NOSOTROS</a></li>
-                </ul>
-            </nav>    
-            <!-- nav -->
-        </header>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light navegacion">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="logo" class="img-responsive" style= "width: 120px;"/>
+                </a> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>   
+                <?php
+                    wp_nav_menu(array(
+                        'theme_location' => 'primary menu',
+                        'container_class' => 'collapse navbar-collapse nav justify-content-end',
+                        'container_id' => 'navbar',
+                        'menu_class' => 'navbar-nav'
+                    ));          
+                ?>
+            </div>                       
+        </nav>    
+    </header>
