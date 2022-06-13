@@ -1,4 +1,8 @@
-
+/*
+Theme Name: ExploraTicos
+Version: 1.0
+Tags: html, css, viajes, blog
+*/
 
 body{
     margin: 0;
@@ -11,9 +15,8 @@ body{
 
 /*---- Header ----- */
 
-header{
-    margin: 0;
-    padding: 0;
+.logo{
+    width: 120px;
 }
 
 /*---- Nav ----- */
