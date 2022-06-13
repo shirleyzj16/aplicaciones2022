@@ -19,6 +19,7 @@
     // soporte para imagenes
   add_theme_support('post-thumbnails');
 
+  //require_once ('wp-bootstrap-navwalker.php');
 
   register_nav_menus(array(
     'primary' => ('Primary Menu')
