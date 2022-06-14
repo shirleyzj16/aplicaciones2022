@@ -5,7 +5,7 @@
                 <h1>DESCUBRE COSTA RICA</h1>
                 <p class="hero-paragraph">TE MOSTRAMOS INCREIBLES LUGARES POR DESCUBRIR </p>
 
-                <button type="button">EXPLORAR</button>
+                <button type="button-hero">EXPLORAR</button>
 </div>
 
 <!--  video --> 
