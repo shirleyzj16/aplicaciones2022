@@ -3,16 +3,7 @@
 
 get_header(); ?>
 
-<?php
-      $args = array(
-                                'post_type'      => 'page',
-                                'posts_per_page' => -1,
-                                'post_parent'    => $post->ID,
-                                'orderby'          => 'rand'
-                            );
-                            $parent = new WP_Query( $args );
 
-                            if ( $parent->have_posts() ) : ?>
 
 	<?php while ( have_posts() ) : the_post(); ?>   
 
@@ -33,7 +24,7 @@ get_header(); ?>
 
     <?php endwhile; ?>
 
-    <?php endif; wp_reset_postdata(); ?>
+    
 
 </div>
 <?php get_footer(); ?>
