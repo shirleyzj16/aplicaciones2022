@@ -14,7 +14,7 @@ get_header(); ?>
 
                             if ( $parent->have_posts() ) : ?>
 
-	<?php while ( have_posts() ) : the_post(); ?>
+	<?php while ( have_posts() ) : the_post(); ?>   
 
         <section class="section py-4">
         <div class="container text-center">
