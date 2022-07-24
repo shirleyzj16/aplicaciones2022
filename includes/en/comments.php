@@ -15,7 +15,7 @@
             echo '<p>' . $comment->comment_content . '</p>';
         }
     } else {
-        echo 'No comentarios encontrados.';
+        echo 'No comments found.';
     }
 
 ?>
