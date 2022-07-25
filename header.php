@@ -16,14 +16,14 @@
         <nav class="navbar navbar-expand-lg bg-light navegacion">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="logo" class="img-responsive" style= "width: 120px;"/>
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/images/logo.png" alt="logo" class="img-responsive" style= "width: 120px;"/>
                 </a> 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>   
                 <?php
                     wp_nav_menu(array(
-                        'theme_location' => 'primary menu',
+                        'theme_location' => 'menu_principal',
                         'container_class' => 'collapse navbar-collapse nav justify-content-end',
                         'container_id' => 'navbar',
                         'menu_class' => 'navbar-nav'
