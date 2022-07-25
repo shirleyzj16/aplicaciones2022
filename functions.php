@@ -53,4 +53,4 @@
     }
     add_action( 'widgets_init', 'exploraticos_widgets');
 
-?>     
+?>    
