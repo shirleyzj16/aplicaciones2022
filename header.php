@@ -23,7 +23,7 @@
                 </button>   
                 <?php
                     wp_nav_menu(array(
-                        'theme_location' => 'menu_principal',
+                        'theme_location' => 'primary menu',
                         'container_class' => 'collapse navbar-collapse nav justify-content-end',
                         'container_id' => 'navbar',
                         'menu_class' => 'navbar-nav'

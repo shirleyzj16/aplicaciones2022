@@ -36,7 +36,7 @@
     /** Nueva navegación */
 
     register_nav_menus(array(
-        'menu_principal'=>__('Menu Principal')
+        'primary menu' => ('Primary Menu')
     ));
 
     /** Widget */
