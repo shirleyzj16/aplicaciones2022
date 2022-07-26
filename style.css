@@ -418,7 +418,7 @@ h3{
      }
 
      .titulo-post{
-        font-size: 47px;
+        font-size: 46px;
      }
 
      .anuncio-t{
@@ -432,6 +432,10 @@ h3{
 
      .comment-form-comment{
         margin: 1em -1em;
+     }
+
+     .paragraph-single{
+        margin: none;
      }
   }
 
