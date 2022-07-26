@@ -376,7 +376,8 @@ h3{
 
 }
 
-@media (max-width: 667px) {
+
+@media screen and (max-width: 667px) {
 
     .category-title{
        font-size: 50px;
@@ -405,7 +406,7 @@ h3{
   }
 
 
-  @media (max-width: 896px) {
+  @media screen and (max-width: 896px) {
 
     .category-title{
        font-size: 60px;
