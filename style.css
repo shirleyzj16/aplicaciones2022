@@ -435,7 +435,8 @@ h3{
      }
 
      .paragraph-single{
-        margin: none;
+        margin: -1em;
+        margin-top: 2em;
      }
   }
 
